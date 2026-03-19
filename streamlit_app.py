@@ -1,5 +1,3 @@
-/mount/src/blank-app-3/streamlit_app.py
-
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -290,4 +288,4 @@ with tab2:
             if success:
                 st.success(msg)
                 st.download_button("📥 PDF 다운로드", buf.getvalue(), f"{target_student}_리포트.pdf", "application/pdf")
-            else: st.error(msg)
+            else: st.error(msg)sg)
