@@ -1,5 +1,4 @@
-matplotlib
-streamlit
+/mount/src/blank-app-3/streamlit_app.py
 
 import os
 import pandas as pd
